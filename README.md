@@ -40,11 +40,11 @@ resources to achieve incorrect results.
 
 When discussing the refactoring of the stock analysis VBA code, the distinct advantage of refactoring this specific code is the improved run time.
 
-![2017 refactored run results](https://github.com/MattK1454/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
 2017 refactored run results
+![2017 refactored run results](https://github.com/MattK1454/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
 
-![2018 refactored run results](https://github.com/MattK1454/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
 2018 refactored run results
+![2018 refactored run results](https://github.com/MattK1454/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 In the previous code, the average run time lasted at least 0.25 seconds longer. My understanding of why the original code ran took longer is because 
 of the need in the original code to reset the values of variables used to track the values of volume, starting, and ending prices for each ticker index value. 
